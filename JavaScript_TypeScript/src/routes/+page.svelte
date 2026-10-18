@@ -15,6 +15,10 @@
         {
             title: 'Effect',
             path: '/Effect'
+        },
+        {
+            title: 'Dynamic_Routing',
+            path: '/Dynamic_Routing'
         }
     ]
 </script>

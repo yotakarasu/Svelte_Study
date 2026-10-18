@@ -1,4 +1,6 @@
 <script lang="ts">
+    import StudyNote from '#lib/components/StudyNote.svelte';
+
     //入力値を管理する変数
     let name = $state('');
     let comment = $state('');  
@@ -22,6 +24,11 @@
 </script>
 
 <h1>プロフィール編集アプリ</h1>
+
+<StudyNote
+    title="bind:valueの学習メモ"
+    description="bind:valueは入力欄と変数を双方向に連動させます。"
+></StudyNote>
 
 <h2>① プロフィール入力</h2>
 
